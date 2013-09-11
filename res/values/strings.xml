@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PointDetecter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_twitter">Select twitter Clients</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="title_activity_sync_data">SyncData</string>
+    
+    <string name="dialog_error">Error</string>
+    <string name="dialog_notlogin">It requires login.</string>
+    <string name="dialog_button_abort">OK</string>
+    
+    <string name="choose_browser">Choose Browser</string>
+   
+    <string name="post_twitter">tweet</string>
+    <string name="show_nowlocation">show map</string>
+    <string name="nolocation">Current location has not got yet.</string>
+    
+    <string name="menu_settings">Settings(Login)</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Logout</string>
+    
+    <string name="dialog_login_title">Login</string>
+    <string name="dialog_login_message">This application requires login.</string>
+    <string name="dialog_login_positive">Login</string>
+    <string name="dialog_login_newtral">Create New Account</string>
+    <string name="dialog_login_negative">Cancel</string>
+    
+    <string name="login_message">Login Form</string>
+    <string name="login_username">User name</string>
+    <string name="login_empty_username">User name is empty.</string>
+    <string name="login_password">Password</string>
+    <string name="login_empty_Password">Password is empty.</string>
+    <string name="login_button">Login</string>
+    <string name="login_wait">Login&#8230;</string>
+    <string name="login_success">Success to login.</string>
+    <string name="login_failed">Failed to login.</string>
+    <string name="login_already">Already login.</string>
+    
+    <string name="message_newaccount"><a href="http://www15052ui.sakura.ne.jp/apply/" target="_blank">create new user acount</a></string>
+    
+    <string name="locdata_updated">Updated target locations.</string>
+    <string name="locdata_alreadyupdated">Target locations are already updated.</string>
+    
+    <string name="select_target_place">Select Target Place</string>
+    <string name="notselect_location">Not select location.</string>
+    <string name="select_same_place">You selected same place.</string>
+    <string name="setting_place">Setting&#8230;</string>
+    <string name="current_target_place">Current Place:</string>
+    
+    <string name="stopgps">Stop GPS when first location got</string>
+    
+    <string name="back_application">Back</string>
+    
+    <string name="jrsapporosta">JR Sapporo Sta.</string>
+    <string name="odorista">Odori Sta.</string>
+    <string name="kikusuista">Kikusi Sta.</string>
+    <string name="higashisapporosta">Higashi-Sapporo Sta.</string>
+    <string name="iiasbtown">Iias Sapporo B Town</string>
+    <string name="icc">Intercross Creative Center</string>
+    <string name="headoffice">Head Office</string>
+    <string name="myhome">My Home</string>
+
+</resources>

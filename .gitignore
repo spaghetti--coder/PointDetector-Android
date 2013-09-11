@@ -1,0 +1,9 @@
+/gen
+/bin
+/libs
+/assets
+/.metadata
+/.settings
+.DS_Store
+local.properties
+/target

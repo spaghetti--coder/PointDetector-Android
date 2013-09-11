@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">地点探索アプリ</string>
+    <string name="action_settings">設定</string>
+    <string name="hello_world">こんにちは、世界！</string>
+    <string name="title_activity_twitter">twitterアプリを選択</string>
+    <string name="title_activity_preferences">設定</string>
+    <string name="title_activity_sync_data">ユーザー情報</string>
+    
+    <string name="dialog_error">エラー</string>
+    <string name="dialog_notlogin">ログインが必要です。</string>
+    <string name="dialog_button_abort">了解</string>
+    
+    <string name="choose_browser">ブラウザを選択</string>
+    
+    <string name="post_twitter">ツイートする</string>
+    <string name="show_nowlocation">現在地を地図で表示</string>
+    <string name="nolocation">現在地はまだ取得できていません。</string>
+    
+    <string name="menu_settings">設定(ログイン)</string>
+    <string name="menu_login">ログイン</string>
+    <string name="menu_logout">ログアウト</string>
+    
+    <string name="dialog_login_title">ログイン</string>
+    <string name="dialog_login_message">このアプリを使用するには、ログインが必要です。</string>
+    <string name="dialog_login_positive">ログイン</string>
+    <string name="dialog_login_newtral">アカウント作成</string>
+    <string name="dialog_login_negative">キャンセル</string>
+    
+    <string name="login_message">ログインフォーム</string>
+    <string name="login_username">ユーザー名</string>
+    <string name="login_empty_username">ユーザー名が入力されていません。</string>
+    <string name="login_password">パスワード</string>
+    <string name="login_empty_password">パスワードが入力されていません。</string>
+    <string name="login_button">ログイン</string>
+    <string name="login_wait">ログイン中&#8230;</string>
+    <string name="login_success">ログインに成功しました。</string>
+    <string name="login_failed">ユーザー名またはパスワードが間違っています。</string>
+    <string name="login_already">既にログインしています。</string>
+    
+    <string name="message_newaccount"><a href="http://www15052ui.sakura.ne.jp/apply/" target="_blank">新規アカウント作成</a></string>
+    
+    <string name="locdata_updated">目標地点が追加されました。</string>
+    <string name="locdata_alreadyupdated">目標地点情報は既に最新になっています。</string>
+    
+    <string name="select_target_place">目標地点選択</string>
+    <string name="notselect_location">地点が選択されていません。</string>
+    <string name="select_same_place">現在と同じ地点です。</string>
+    <string name="setting_place">設定中&#8230;</string>
+    <string name="current_target_place">現在の目標地:</string>
+    
+    <string name="stopgps">最初の測位でGPS停止</string>
+    
+    <string name="back_application">戻る</string>
+    
+    <string name="jrsapporosta">JR札幌駅</string>
+    <string name="odorista">大通駅</string>
+    <string name="kikusuista">菊水駅</string>
+    <string name="higashisapporosta">東札幌駅</string>
+    <string name="iiasbtown">イーアス札幌(Bタウン)</string>
+    <string name="icc">産業振興センター(ICC)</string>
+    <string name="headoffice">本社</string>
+    <string name="myhome">自宅</string>
+    
+</resources>
