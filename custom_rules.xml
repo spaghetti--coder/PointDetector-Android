@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="cutom">
+    <property name="reports.dir" value="bin/reports"/>
+
+    <!-- The following target shows how to fetch the default report using adb pull. -->
+    <target name="fetch-test-report">
+        <echo>Downloading XML test report...</echo>
+        <mkdir dir="${reports.dir}"/>
+        <exec executable="${adb}" failonerror="true">
+            <arg line="${adb.device.arg}"/>
+            <arg value="pull"/>
+            <arg value="/data/data/${tested.project.app.package}/files/junit-report.xml"/>
+            <arg value="${reports.dir}/junit-report.xml" />
+        </exec>
+    </target>
+
+    <!-- An example of a build, run and report fetch with defaults. -->
+    <target name="test-and-fetch" depends="debug,install,test,fetch-test-report"/>
+
+</project>
