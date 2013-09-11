@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <instrumentation
-        android:name="android.test.InstrumentationTestRunner"
+        android:name="com.neenbedankt.android.test.InstrumentationTestRunner"
         android:targetPackage="jp.xii.code.android.pointdetector" />
    
     <application
